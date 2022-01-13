@@ -1,0 +1,42 @@
+img {
+  max-width: 100%;
+}
+body {
+  margin-bottom: 500px;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.selector {
+  position: absolute;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+}
+#map {
+  position: absolute;
+  top: 0;
+  border: 1px solid #777;
+}
+#map path {
+  stroke-width: 10px;
+  stroke: rgb(136, 206, 2);
+  fill: transparent;
+}
+.train {
+  position: relative;
+}
+.train_js {
+  display: flex;
+  width: 104px;
+  height: 104px;
+}
+.train_js img {
+  /* position: absolute!important;
+  left: -3%; */
+}
+#map path {
+  cursor: pointer;
+} 
